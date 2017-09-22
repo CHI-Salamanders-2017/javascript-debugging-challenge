@@ -16,13 +16,31 @@ There are several ways to open the chrome developer tools. You can always refer 
 ### Release 1: The Network Tab
 The network tab is invaluable for debugging issues between your web server and your browser. It shows you exactly the requests that you are making (including AJAX requests), as well as the responses that the web server is giving back. A common mistake is to mistake which controller is being called. Perhaps you are using a `GET` instead of a `PUT`, or the route isn't right. **The Network tab helps you figure out if the issue is on the browser side or on the server side.**
 
+Let's see it in action. Open up one of the challenges you've finished this week, such as:
+- [Anonymous Blog](../../../../blog-1-anonymous-blog-challenge)
+- [Craig's List Jr.](../../../../craigslist-jr-challenge)
+- [User Registration and Authentication](../../../../user-registration-and-authentication-challenge)
+
+Run your server, go to the website and open up the network tab. Check the `preserve log` checkbox.
+
+![preserve log](resources/preserve_log.png "Preserve all logs")
+
+Then, click on a link and note the requests that come in. You can inspect the data coming in and out by clicking on a request on the left column, and then viewing the details (such as the headers in the request/response cycle)
+![headers](resources/headers.png "See the headers")
+
+#### Answer the following questions:
+1. What route is being hit in the above picture?
+1. What method is it?
+1. What status did the server respond with?
+1. What data type did the server respond with?
+
 ### Release 2: Setting Breakpoints
-The Chrome team has put together a great tutorial on how to set breakpoints with the Chrome debugger. Follow the guide https://developers.google.com/web/tools/chrome-devtools/javascript/ and then answer the following questions:
+The Chrome team has put together a great tutorial on how to set breakpoints with the Chrome debugger. Follow the guide https://developers.google.com/web/tools/chrome-devtools/javascript/
+
+#### Answer the following questions:
 
 1. What tab in the developer tools do you use to debug javascript?
 1. How do you set a breakpoint in some code that you wrote?
 1. How do you set a breakpoint when the user does something (like click a button)
 1. What are two ways of inspecting the state of a variable when you are broken in the debugger?
 1. How do you toggle between enabling and disabling breakpoints?
-
-## Conclusion
