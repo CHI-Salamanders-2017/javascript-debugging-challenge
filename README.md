@@ -45,7 +45,12 @@ The Chrome team has put together a great tutorial on how to set breakpoints with
 1. What are two ways of inspecting the state of a variable when you are broken in the debugger?
 1. How do you toggle between enabling and disabling breakpoints?
 
-### Release 3: Debugging problems
+### Release 3: Greet!
 Open the challenge in chrome using the `open` command on the terminal `open release-3/index.html`
 
 When you click the greet button, it is supposed to say hello, but it's not working. Debug the code and commit the fixed version.
+
+### Release 4: Listing students
+Open the challenge in chrome using the `open` command on the terminal `open release-4/index.html`
+
+When you click the list students button, it is supposed to display a list of all of the students who have a favoriteColor of blue, but it's not working. Practice your debugging skills to fix what's wrong and commit the fixed version.
