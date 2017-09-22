@@ -44,3 +44,7 @@ The Chrome team has put together a great tutorial on how to set breakpoints with
 1. How do you set a breakpoint when the user does something (like click a button)
 1. What are two ways of inspecting the state of a variable when you are broken in the debugger?
 1. How do you toggle between enabling and disabling breakpoints?
+
+### Release 3: Debugging problems
+Navigate to the following file, and click the button. The code doesn't work :-( Can you use the debugger to figure out why?
+[Release 3](release-3/index.html)
