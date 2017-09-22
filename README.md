@@ -46,5 +46,6 @@ The Chrome team has put together a great tutorial on how to set breakpoints with
 1. How do you toggle between enabling and disabling breakpoints?
 
 ### Release 3: Debugging problems
-Navigate to the following file, and click the button. The code doesn't work :-( Can you use the debugger to figure out why?
-[Release 3](release-3/index.html)
+Open the challenge in chrome using the `open` command on the terminal `open release-3/index.html`
+
+When you click the greet button, it is supposed to say hello, but it's not working. Debug the code and commit the fixed version.
