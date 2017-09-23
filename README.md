@@ -39,6 +39,7 @@ The Chrome team has put together a great tutorial on how to set breakpoints with
 
 #### Answer the following questions:
 
+1. What is a breakpoint?
 1. What tab in the developer tools do you use to debug javascript?
 1. How do you set a breakpoint in some code that you wrote?
 1. How do you set a breakpoint when the user does something (like click a button)
