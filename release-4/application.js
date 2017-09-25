@@ -27,6 +27,6 @@ $('#start').on('click', () => {
   const container = $('#container');
   const blueStudents = getStudentsByFavoriteColor('blue');
   blueStudents.forEach((student) => {
-    container.append(`<div>Student ${student.name} likes the color ${student.favoriteColor}`);
+    container.append(`<div>Student ${student.name} likes the color ${student.favoriteColor}</div>`);
   });
 });
