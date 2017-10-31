@@ -1,0 +1,33 @@
+
+Release 1
+Answer the following questions:
+
+What route is being hit in the above picture?
+  -/categories
+What method is it?
+  -GET
+What status did the server respond with?
+  -it retrived information
+What data type did the server respond with?
+  -text/html
+
+
+
+Release 2
+Answer the following questions:
+
+What is a breakpoint?
+  -breakpoints allow you to pause your code in the middle of execution to examine the values of all variables at that time in execution
+
+What tab in the developer tools do you use to debug javascript?
+  -Sources tab/console
+
+How do you set a breakpoint in some code that you wrote?
+  -You can add dubugger in the source code, or open the Dev console and click on the sources tab. Click on Event Listener breakpoints to see a list of choices on where to enter the breakpoint.
+
+How do you set a breakpoint when the user does something (like click a button)
+  -See above
+What are two ways of inspecting the state of a variable when you are broken in the debugger?
+  -stepping through code with step into or step over function calls.
+How do you toggle between enabling and disabling breakpoints?
+  -Deactivate breakpoints in the upper right of the console.

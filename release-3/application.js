@@ -5,5 +5,5 @@ const data = {
 
 $('#start').on('click', () => {
   const greeting = document.getElementById('greeting');
-  greeting.innerText = `Hi ${name}, welcome to ${school}`;
+  greeting.innerText = `Hi ${data.name}, welcome to ${data.school}`;
 });
