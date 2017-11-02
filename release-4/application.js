@@ -20,7 +20,8 @@ const students = [
 
 
 const getStudentsByFavoriteColor = (color) => {
-  const matchingStudents = students.filter(student => student.color === color);
+  const matchingStudents = students.filter(student => student.favoriteColor === color);
+  return matchingStudents
 };
 
 $('#start').on('click', () => {
